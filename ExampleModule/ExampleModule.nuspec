@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ExampleModule</id>
+    <version>1.0.1</version>
+    <authors>luke</authors>
+    <owners>luke</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Example of how to package a PowerShell module as a nuget package.</description>
+    <releaseNotes>1.0: First Example</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>PowerShell Example</tags>
+  </metadata>
+  <files>
+    <file src="ExampleModule.psm1" target="" ></file>
+    <file src="ExampleModule.psd1" target="" ></file>
+  </files>
+</package>

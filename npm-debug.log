@@ -1,0 +1,212 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-core-middleware' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'generator-core-middleware', null ]
+7 verbose cache add spec generator-core-middleware
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'generator-core-middleware',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'generator-core-middleware',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed generator-core-middleware@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for generator-core-middleware
+11 info addNameTag [ 'generator-core-middleware', 'latest' ]
+12 silly mapToRegistry name generator-core-middleware
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'generator-core-middleware',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'generator-core-middleware',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/generator-core-middleware
+17 verbose addNameTag registry:https://registry.npmjs.org/generator-core-middleware not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/generator-core-middleware
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 8:31:26 PM
+21 verbose request id 057ee462467a08aa
+22 http request GET https://registry.npmjs.org/generator-core-middleware
+23 http 200 https://registry.npmjs.org/generator-core-middleware
+24 verbose headers { server: 'nginx/1.10.1',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'last-modified': 'Tue, 07 Mar 2017 06:52:12 GMT',
+24 verbose headers   etag: 'W/"58be589c-3def"',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '2272',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Thu, 22 Jun 2017 19:31:20 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '14',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-lhr6329-LHR',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1498159880.388280,VS0,VE0',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'nginx/1.10.1',
+25 silly get     'content-type': 'application/json',
+25 silly get     'last-modified': 'Tue, 07 Mar 2017 06:52:12 GMT',
+25 silly get     etag: 'W/"58be589c-3def"',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '2272',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Thu, 22 Jun 2017 19:31:20 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '14',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lhr6329-LHR',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1498159880.388280,VS0,VE0',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving generator-core-middleware to /Users/luke/.npm/registry.npmjs.org/generator-core-middleware/.cache.json
+27 verbose correctMkdir /Users/luke/.npm correctMkdir not in flight; initializing
+28 silly addNameTag next cb for generator-core-middleware with tag latest
+29 silly addNamed generator-core-middleware@1.0.6
+30 verbose addNamed "1.0.6" is a plain semver version for generator-core-middleware
+31 silly mapToRegistry name generator-core-middleware
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'generator-core-middleware',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'generator-core-middleware',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/generator-core-middleware
+36 verbose addRemoteTarball https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz',
+37 verbose addRemoteTarball   '81d585af43364c601af5cbc281b75df3be85ce55' ]
+38 info retry fetch attempt 1 at 8:31:26 PM
+39 info attempt registry request try #1 at 8:31:26 PM
+40 http fetch GET https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz
+41 http fetch 200 https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz
+42 silly fetchAndShaCheck shasum 81d585af43364c601af5cbc281b75df3be85ce55
+43 verbose addTmpTarball /var/folders/jh/54t2ry391879d60tnvlz65rr0000gn/T/npm-39731-4ed92284/registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for generator-core-middleware@1.0.6
+45 verbose correctMkdir /Users/luke/.npm correctMkdir not in flight; initializing
+46 silly cache afterAdd generator-core-middleware@1.0.6
+47 verbose afterAdd /Users/luke/.npm/generator-core-middleware/1.0.6/package/package.json not in flight; writing
+48 verbose correctMkdir /Users/luke/.npm correctMkdir not in flight; initializing
+49 verbose afterAdd /Users/luke/.npm/generator-core-middleware/1.0.6/package/package.json written
+50 silly install resolved [ { name: 'generator-core-middleware',
+50 silly install resolved     version: '1.0.6',
+50 silly install resolved     description: 'Generates ASP.net core middleware project with unittests and nuget configuration',
+50 silly install resolved     homepage: 'https://github.com/schwamster/generator-core-middleware',
+50 silly install resolved     author:
+50 silly install resolved      { name: 'Bastian Töpfer, Jonas Frogvall',
+50 silly install resolved        email: 'bastian.toepfer@gmail.com, frjo02@gmail.com' },
+50 silly install resolved     files: [ 'generators' ],
+50 silly install resolved     main: 'generators/index.js',
+50 silly install resolved     keywords: [ 'aspnet core', 'middleware', 'yeoman-generator' ],
+50 silly install resolved     dependencies:
+50 silly install resolved      { chalk: '^1.1.3',
+50 silly install resolved        'deep-extend': '^0.4.1',
+50 silly install resolved        yosay: '^1.2.1',
+50 silly install resolved        lodash: '^4.17.2',
+50 silly install resolved        mkdirp: '^0.5.1',
+50 silly install resolved        'yeoman-generator': '^1.0.0',
+50 silly install resolved        'gulp-rename': '1.2.2' },
+50 silly install resolved     devDependencies:
+50 silly install resolved      { 'yeoman-test': '^1.6.0',
+50 silly install resolved        'yeoman-assert': '^2.2.1',
+50 silly install resolved        eslint: '^3.1.1',
+50 silly install resolved        'eslint-config-xo-space': '^0.15.0',
+50 silly install resolved        gulp: '^3.9.0',
+50 silly install resolved        'gulp-eslint': '^3.0.1',
+50 silly install resolved        'gulp-exclude-gitignore': '^1.0.0',
+50 silly install resolved        'gulp-line-ending-corrector': '^1.0.1',
+50 silly install resolved        'gulp-istanbul': '^1.0.0',
+50 silly install resolved        'gulp-mocha': '^3.0.1',
+50 silly install resolved        'gulp-plumber': '^1.0.0',
+50 silly install resolved        'gulp-nsp': '^2.1.0' },
+50 silly install resolved     eslintConfig: { extends: 'xo-space', env: [Object] },
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git+https://github.com/schwamster/generator-core-middleware.git' },
+50 silly install resolved     scripts: { prepublish: 'gulp prepublish', test: 'gulp' },
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     gitHead: 'c4115f5f0a8529d58e6a3dae130a2ded5691fe26',
+50 silly install resolved     bugs: { url: 'https://github.com/schwamster/generator-core-middleware/issues' },
+50 silly install resolved     _id: 'generator-core-middleware@1.0.6',
+50 silly install resolved     _shasum: '81d585af43364c601af5cbc281b75df3be85ce55',
+50 silly install resolved     _from: 'generator-core-middleware@latest',
+50 silly install resolved     _npmVersion: '3.10.6',
+50 silly install resolved     _nodeVersion: '6.5.0',
+50 silly install resolved     _npmUser: { name: 'schwamster', email: 'bastian.toepfer@gmail.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '81d585af43364c601af5cbc281b75df3be85ce55',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     _npmOperationalInternal:
+50 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+50 silly install resolved        tmp: 'tmp/generator-core-middleware-1.0.6.tgz_1488869531050_0.7455838611349463' },
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-core-middleware/-/generator-core-middleware-1.0.6.tgz' } ]
+51 info install generator-core-middleware@1.0.6 into /usr/local/lib
+52 info installOne generator-core-middleware@1.0.6
+53 verbose installOne of generator-core-middleware to /usr/local/lib not in flight; installing
+54 verbose correctMkdir /Users/luke/.npm/_locks correctMkdir not in flight; initializing
+55 verbose lock using /Users/luke/.npm/_locks/generator-core-middlewar-0944606f70714245.lock for /usr/local/lib/node_modules/generator-core-middleware
+56 silly install write writing generator-core-middleware 1.0.6 to /usr/local/lib/node_modules/generator-core-middleware
+57 verbose unbuild lib/node_modules/generator-core-middleware
+58 silly gentlyRm /usr/local/lib/node_modules/generator-core-middleware is being purged from base /usr/local
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-core-middleware
+60 verbose tar unpack /Users/luke/.npm/generator-core-middleware/1.0.6/package.tgz
+61 verbose tar unpacking to /usr/local/lib/node_modules/generator-core-middleware
+62 silly gentlyRm /usr/local/lib/node_modules/generator-core-middleware is being purged
+63 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-core-middleware
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 error tar.unpack untar error /Users/luke/.npm/generator-core-middleware/1.0.6/package.tgz
+66 verbose unlock done using /Users/luke/.npm/_locks/generator-core-middlewar-0944606f70714245.lock for /usr/local/lib/node_modules/generator-core-middleware
+67 verbose fstream_path /usr/local/lib/node_modules/generator-core-middleware
+68 verbose fstream_type Directory
+69 verbose fstream_class DirWriter
+70 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/generator-core-middleware'
+70 verbose stack     at Error (native)
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+71 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+71 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+72 verbose cwd /Users/luke/GitHub/nugetDocker
+73 error Darwin 16.6.0
+74 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator-core-middleware"
+75 error node v4.4.7
+76 error npm  v2.15.8
+77 error path /usr/local/lib/node_modules/generator-core-middleware
+78 error code EACCES
+79 error errno -13
+80 error syscall mkdir
+81 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/generator-core-middleware'
+81 error     at Error (native)
+81 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/generator-core-middleware']
+81 error   errno: -13,
+81 error   code: 'EACCES',
+81 error   syscall: 'mkdir',
+81 error   path: '/usr/local/lib/node_modules/generator-core-middleware',
+81 error   fstream_type: 'Directory',
+81 error   fstream_path: '/usr/local/lib/node_modules/generator-core-middleware',
+81 error   fstream_class: 'DirWriter',
+81 error   fstream_stack:
+81 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+81 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+81 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+82 error Please try running this command again as root/Administrator.
+83 verbose exit [ -13, true ]
+84 verbose unbuild lib/node_modules/generator-core-middleware
+85 silly gentlyRm /usr/local/lib/node_modules/generator-core-middleware is being purged from base /usr/local
+86 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-core-middleware
